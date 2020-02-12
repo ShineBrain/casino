@@ -1,4 +1,4 @@
-package sample;
+package Sample;
 
 import java.io.IOException;
 import java.net.URL;

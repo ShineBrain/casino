@@ -1,4 +1,4 @@
-package sample;
+package Sample;
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -56,7 +56,7 @@ public class sampleUserAccountController implements OtherInterf {
             Stage stg = (Stage)BackButton.getScene().getWindow();//скрыть прошлое окно
             stg.close();
 
-            Transition("/sample/sampleee.fxml");
+            Transition("/Sample/sampleee.fxml");
         });
     }
 }

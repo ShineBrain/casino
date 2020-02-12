@@ -9,7 +9,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PaymentDataController">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.PaymentDataController">
    <children>
       <Label layoutX="233.0" layoutY="28.0" prefHeight="32.0" prefWidth="130.0" text="Payment data" translateY="-1.0" AnchorPane.bottomAnchor="340.0" AnchorPane.leftAnchor="233.0" AnchorPane.rightAnchor="237.0" AnchorPane.topAnchor="28.0">
          <font>

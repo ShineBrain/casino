@@ -7,7 +7,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.BetRoomController">
+<AnchorPane prefHeight="400.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.BetRoomController">
    <children>
       <Line endX="475.0" endY="-0.3071136474609375" layoutX="101.0" layoutY="72.0" startX="-84.0" startY="-0.3071136474609375" />
       <Label layoutX="257.0" layoutY="21.0" text="Bet room" AnchorPane.leftAnchor="254.0" AnchorPane.rightAnchor="254.0">
