@@ -24,7 +24,7 @@ public class Bet extends Account {
             return false;
     }
 
-    protected static void Game(String vote, int bet, double coefficient, int percent){
+    protected static boolean Game(String vote, int bet, double coefficient, int percent){
         int voteNum = Integer.parseInt(vote);
 
         int answer = 1 + (int)(Math.random() * 6);
@@ -37,7 +37,13 @@ public class Bet extends Account {
             Admin.PersonalBalance += PercentAdmin;
 
             Balance += Admin.MinusBalance(FinalWin);
+
+            return true;
         }
-        else{ Admin.OverallBalance += MinusBalance(bet); }
+        else {
+            Admin.OverallBalance += MinusBalance(bet);
+
+            return false;
+        }
     }
 }
