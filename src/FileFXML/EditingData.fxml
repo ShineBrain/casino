@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllerss.EditingDataController">
+   <children>
+      <Label layoutX="194.0" layoutY="28.0" prefHeight="32.0" prefWidth="213.0" text="Edit client information" AnchorPane.bottomAnchor="340.0" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="193.0" AnchorPane.topAnchor="28.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="70.0" layoutY="70.0" prefHeight="114.0" prefWidth="500.0" text="//Add explanation about this form, make the window smaller" AnchorPane.leftAnchor="50.0" AnchorPane.rightAnchor="50.0" />
+      <TextField fx:id="NewCardNumberField" alignment="CENTER" layoutX="180.0" layoutY="208.0" promptText="New card number" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" />
+      <TextField fx:id="NewFullNameField" alignment="CENTER" layoutX="180.0" layoutY="234.0" promptText="New full name" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" />
+      <TextField fx:id="NewDataExpirationField" alignment="CENTER" layoutX="180.0" layoutY="260.0" promptText="New data expiration card" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" />
+      <TextField fx:id="NewCVVField" alignment="CENTER" layoutX="180.0" layoutY="286.0" promptText="New CVV" AnchorPane.leftAnchor="180.0" AnchorPane.rightAnchor="180.0" />
+      <Button fx:id="ToChangeButton" layoutX="180.0" layoutY="312.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="119.2" text="Apply changes" AnchorPane.leftAnchor="180.0" />
+      <Button fx:id="NotChangeButton" layoutX="300.0" layoutY="312.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="119.2" text="Discard changes" AnchorPane.rightAnchor="180.0" />
+   </children>
+</AnchorPane>
