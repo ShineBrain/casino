@@ -17,3 +17,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
+###Tech specs
+
+This project is written using openJDK ver. 14.0.x and uses javaFX SDK ver 11.0.2
+Use these versions to ensure that project is working without any issues.
+If using any other versions and/or JDKs, additional work on changing project's structure
+may be needed.
