@@ -1,4 +1,5 @@
-/out/production/casino/FileFXML/
+/out/production/casino/
+.DS_Store
 # Prerequisites
 *.d
 

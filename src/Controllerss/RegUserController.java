@@ -57,10 +57,8 @@ void initialize() {
                             } else OtherInterf.FXNotification("Date entered incorrectly");
                         } else OtherInterf.FXNotification("There is already an account with this login and/or card number");
                     } else OtherInterf.FXNotification("Card number entered incorrectly");
-                }
-                else OtherInterf.FXNotification("Password entered incorrectly");
-            }
-            else OtherInterf.FXNotification("Login entered incorrectly");
+                } else OtherInterf.FXNotification("Password entered incorrectly");
+            } else OtherInterf.FXNotification("Login entered incorrectly");
     });
 
         BackGerField.setOnAction(event -> {

@@ -41,41 +41,39 @@ public class DrumBet extends RRbet implements OtherInterf {
             case 1:
                 if (CheckBalance(bet)){
                     DropNum = answer;
-                    if (bet > 0 && bet < 1000001){
-                        if (answer % 2 == 0 && color.equals("Red")){
+                    if (CheckBet(bet)){
+                        if (answer % 2 == 0){
                             Calculations(bet, percent, coefficient);
                             OtherInterf.FXNotification("You won!");
                         }
                         else {
                             Admin.OverallBalance += MinusBalance(bet);
-                            OtherInterf.FXNotification("Lose");
+                            OtherInterf.FXNotification("You lost");
                         }
                     }
-                    else OtherInterf.FXNotification("Invalid balance entered");
+                    else OtherInterf.FXNotification("Invalid balance entered. Bet should be between 0 and 1000000");
                 }
                 else OtherInterf.FXNotification("Insufficient funds");
-
                 break;
             case 2:
                 if (CheckBalance(bet)){
                     DropNum = answer;
-                    if (bet > 0 && bet < 1000001){
+                    if (CheckBet(bet)){
                         if (answer % 2 != 0 && color.equals("Black")){
                             Calculations(bet, percent, coefficient);
                             OtherInterf.FXNotification("You won!");
                         }
                         else {
                             Admin.OverallBalance += MinusBalance(bet);
-                            OtherInterf.FXNotification("Lose");
+                            OtherInterf.FXNotification("You lost");
                         }
                     }
-                    else OtherInterf.FXNotification("Invalid balance entered");
+                    else OtherInterf.FXNotification("Invalid balance entered. Bet should be between 0 and 1000000");
                 }
                 else OtherInterf.FXNotification("Insufficient funds");
-
                 break;
             default:
-                System.err.println("Error");
+                System.err.println("Unexpected error");
         }
     }
 
@@ -102,7 +100,7 @@ public class DrumBet extends RRbet implements OtherInterf {
                     }
                     else OtherInterf.FXNotification("Insufficient funds");
                 }
-                else OtherInterf.FXNotification("Invalid balance entered");
+                else OtherInterf.FXNotification("Invalid balance entered. Bet should be between 0 and 1000000");
 
                 break;
             case 2:
@@ -120,7 +118,7 @@ public class DrumBet extends RRbet implements OtherInterf {
                     }
                     else OtherInterf.FXNotification("Insufficient funds");
                 }
-                else OtherInterf.FXNotification("Invalid balance entered");
+                else OtherInterf.FXNotification("Invalid balance entered. Bet should be between 0 and 1000000");
 
                 break;
             case 3:
@@ -138,11 +136,11 @@ public class DrumBet extends RRbet implements OtherInterf {
                     }
                     else OtherInterf.FXNotification("Insufficient funds");
                 }
-                else OtherInterf.FXNotification("Invalid balance entered");
+                else OtherInterf.FXNotification("Invalid balance entered. Bet should be between 0 and 1000000");
 
                 break;
             default:
-                System.err.println("Error");
+                System.err.println("Unexpected error");
         }
     }
 
@@ -163,6 +161,6 @@ public class DrumBet extends RRbet implements OtherInterf {
             }
             else OtherInterf.FXNotification("Insufficient funds");
         }
-        else OtherInterf.FXNotification("Invalid balance entered");
+        else OtherInterf.FXNotification("Invalid balance entered. Bet should be between 0 and 1000000");
     }
 }

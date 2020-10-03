@@ -1,9 +1,7 @@
 package BackEnd;
 
 import javafx.scene.control.Alert;
-
 import java.util.ArrayList;
-
 import static BackEnd.OtherInterf.Transition;
 
 public class RRbet extends Bet {
@@ -32,15 +30,13 @@ public class RRbet extends Bet {
     protected void AddAccount(ArrayList<Account> Room){
         if (Room.size() < 7 && CheckOnCoincidence(Room, accounts.get(NumberUser)))
             Room.add(accounts.get(NumberUser));
-        else
-            System.out.println("Size > 6");
+        //else
+            //System.out.println("Size > 6");
     }
 
     protected void RRGame(ArrayList<Account> Room, int bet, double coefficient, int percent){
         if (CheckBalance(bet)){
-
             MinusBalance(bet);
-
             AddAccount(Room);
 
             Alert alert = new Alert(Alert.AlertType.INFORMATION);
@@ -50,28 +46,25 @@ public class RRbet extends Bet {
             alert.showAndWait();
 
             if (Room.size() == 6){
-
                 int answer = 1 + (int)(Math.random() * 6);
                 Account winner = Room.get(answer);
 
-                for (int i = 0; i < accounts.size(); i++){
-                    if (accounts.get(i) == winner){
+                for (Account account : accounts) {
+                    if (account == winner) {
 
                         double WinBet = bet * coefficient;
-                        double PercentAdmin = ((bet * coefficient) * percent)/100;
+                        double PercentAdmin = ((bet * coefficient) * percent) / 100;
                         double FinalWinBet = WinBet - PercentAdmin;
 
                         Admin.PersonalBalance += PercentAdmin;
-                        accounts.get(i).Balance += FinalWinBet;
+                        account.Balance += FinalWinBet;
 
                         ClearRoom(Room);
                         break;
-                    }
-                    else System.out.println("Not user");
+                    } //else System.out.println("Not user");
                 }
-            }
-            else System.out.println("Size != 6");
-        }
-        else Transition("/FileFXML/NotBalance.fxml");
+
+            } //else System.out.println("Size != 6");
+        } else Transition("/FileFXML/NotBalance.fxml");
     }
 }

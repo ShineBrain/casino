@@ -6,7 +6,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="260.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllerss.PlusBalanceController">
    <children>
-      <Label layoutX="56.0" layoutY="14.0" text="// Put BANK_NAME here">
+      <Label layoutX="56.0" layoutY="14.0" text="BestBank. Money for free">
          <font>
             <Font size="15.0" />
          </font>
