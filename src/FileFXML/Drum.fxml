@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllerss.DrumController">
+   <children>
+      <Line endX="140.0" layoutX="280.0" layoutY="80.0" startX="-100.0" />
+      <Label layoutX="244.0" layoutY="14.0" text="Drum room">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Line endX="-100.0" endY="261.5" layoutX="520.0" layoutY="79.0" startX="-100.0" startY="1.5" />
+      <Line endX="140.0" layoutX="280.0" layoutY="100.0" startX="-100.0" />
+      <Line endX="-100.0" endY="262.5" layoutX="280.0" layoutY="78.0" startX="-100.0" startY="1.5" />
+      <Line endX="140.0" layoutX="280.0" layoutY="120.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="140.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="160.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="180.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="200.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="220.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="240.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="260.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="280.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="340.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="300.0" startX="-100.0" />
+      <Line endX="140.0" layoutX="280.0" layoutY="320.0" startX="-100.0" />
+      <Line endX="-100.0" endY="241.5" layoutX="360.0" layoutY="99.0" startX="-100.0" startY="1.5" />
+      <Line endX="-100.0" endY="241.5" layoutX="440.0" layoutY="99.0" startX="-100.0" startY="1.5" />
+      <Label layoutX="297.0" layoutY="81.0" text="0" textFill="#00d30b" />
+      <Label layoutX="214.0" layoutY="101.0" prefHeight="11.0" text="1" />
+      <Label layoutX="214.0" layoutY="121.0" prefHeight="11.0" text="4" textFill="RED" />
+      <Label layoutX="214.0" layoutY="141.0" prefHeight="11.0" text="7" />
+      <Label layoutX="211.0" layoutY="161.0" prefHeight="11.0" text="10" textFill="RED" />
+      <Label layoutX="211.0" layoutY="181.0" prefHeight="11.0" text="13" />
+      <Label layoutX="211.0" layoutY="202.0" prefHeight="11.0" text="16" textFill="RED" />
+      <Label layoutX="211.0" layoutY="221.0" prefHeight="11.0" text="19" />
+      <Label layoutX="211.0" layoutY="241.0" prefHeight="11.0" text="22" textFill="RED" />
+      <Label layoutX="211.0" layoutY="261.0" prefHeight="11.0" text="25" />
+      <Label layoutX="211.0" layoutY="281.0" prefHeight="11.0" text="28" textFill="RED" />
+      <Label layoutX="211.0" layoutY="301.0" prefHeight="11.0" text="31" />
+      <Label layoutX="211.0" layoutY="321.0" prefHeight="11.0" text="34" textFill="RED" />
+      <Label layoutX="297.0" layoutY="101.0" prefHeight="11.0" text="2" textFill="RED" />
+      <Label layoutX="297.0" layoutY="121.0" prefHeight="11.0" text="5" />
+      <Label layoutX="297.0" layoutY="141.0" prefHeight="11.0" text="8" textFill="RED" />
+      <Label layoutX="294.0" layoutY="161.0" prefHeight="11.0" text="11" />
+      <Label layoutX="294.0" layoutY="181.0" prefHeight="11.0" text="14" textFill="RED" />
+      <Label layoutX="294.0" layoutY="202.0" prefHeight="11.0" text="17" />
+      <Label layoutX="294.0" layoutY="221.0" prefHeight="11.0" text="20" textFill="RED" />
+      <Label layoutX="294.0" layoutY="241.0" prefHeight="11.0" text="23" />
+      <Label layoutX="294.0" layoutY="261.0" prefHeight="11.0" text="26" textFill="RED" />
+      <Label layoutX="294.0" layoutY="281.0" prefHeight="11.0" text="29" />
+      <Label layoutX="294.0" layoutY="301.0" prefHeight="11.0" text="32" textFill="RED" />
+      <Label layoutX="294.0" layoutY="321.0" prefHeight="11.0" text="35" />
+      <Label layoutX="379.0" layoutY="101.0" prefHeight="11.0" text="3" />
+      <Label layoutX="379.0" layoutY="121.0" prefHeight="11.0" text="6" textFill="RED" />
+      <Label layoutX="379.0" layoutY="141.0" prefHeight="11.0" text="9" />
+      <Label layoutX="376.0" layoutY="161.0" prefHeight="11.0" text="12" textFill="RED" />
+      <Label layoutX="376.0" layoutY="181.0" prefHeight="11.0" text="15" />
+      <Label layoutX="376.0" layoutY="202.0" prefHeight="11.0" text="18" textFill="RED" />
+      <Label layoutX="376.0" layoutY="221.0" prefHeight="11.0" text="21" />
+      <Label layoutX="376.0" layoutY="241.0" prefHeight="11.0" text="24" textFill="RED" />
+      <Label layoutX="376.0" layoutY="261.0" prefHeight="11.0" text="27" />
+      <Label layoutX="376.0" layoutY="281.0" prefHeight="11.0" text="30" textFill="RED" />
+      <Label layoutX="376.0" layoutY="301.0" prefHeight="11.0" text="33" />
+      <Label layoutX="376.0" layoutY="321.0" prefHeight="11.0" text="36" textFill="RED" />
+      <Label layoutX="37.0" layoutY="250.0" text="Black" />
+      <Label layoutX="113.0" layoutY="250.0" text="Red" textFill="RED" />
+      <Label layoutX="463.0" layoutY="100.0" text="From 1 to 12 " />
+      <Label layoutX="460.0" layoutY="145.0" text="From 13 to 24 " />
+      <Label layoutX="459.0" layoutY="190.0" text="From 25 to 36 " />
+      <Label layoutX="463.0" layoutY="235.0" text="From 1 to 18 " />
+      <Label layoutX="462.0" layoutY="280.0" text="From 19 to 36" />
+      <Label layoutX="61.0" layoutY="100.0" text="Column 1" />
+      <Label layoutX="61.0" layoutY="150.0" text="Column 2" />
+      <Label layoutX="61.0" layoutY="200.0" text="Column 3" />
+      <Button fx:id="VoteButtonFrom1to12" layoutX="462.0" layoutY="115.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonFrom13to24" layoutX="462.0" layoutY="160.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonFrom25to36" layoutX="462.0" layoutY="205.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonFrom1to18" layoutX="463.0" layoutY="250.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonFrom19to36" layoutX="463.0" layoutY="295.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonBlack" layoutX="15.0" layoutY="265.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonRed" layoutX="87.0" layoutY="265.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonColumn1" layoutX="51.0" layoutY="115.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonColumn2" layoutX="51.0" layoutY="165.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="VoteButtonColumn3" layoutX="51.0" layoutY="215.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Button fx:id="BackButton" layoutX="51.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="75.0" text="Back" />
+      <Line endX="-100.0" endY="215.5" layoutX="110.0" layoutY="83.0" startX="-100.0" startY="15.5" />
+      <Line endX="51.5" endY="-1.0" layoutX="114.0" layoutY="100.0" startX="-103.5" startY="-1.0" />
+      <Line endX="-100.0" endY="210.5" layoutX="265.0" layoutY="88.0" startX="-100.0" startY="11.5" />
+      <Line endX="51.5" endY="-1.0" layoutX="113.0" layoutY="299.0" startX="-103.5" startY="-1.0" />
+      <Line endX="51.5" endY="-1.0" layoutX="113.0" layoutY="150.0" startX="-103.5" startY="-1.0" />
+      <Line endX="51.5" endY="-1.0" layoutX="113.0" layoutY="199.0" startX="-103.5" startY="-1.0" />
+      <Line endX="51.5" endY="-1.0" layoutX="113.0" layoutY="250.0" startX="-103.5" startY="-1.0" />
+      <Line endX="-100.0" endY="247.5" layoutX="555.0" layoutY="77.0" startX="-100.0" startY="22.0" />
+      <Line endX="-100.0" endY="249.5" layoutX="640.0" layoutY="75.0" startX="-100.0" startY="23.5" />
+      <Line endX="5.0" endY="-1.0" layoutX="535.0" layoutY="325.0" startX="-80.0" startY="-1.0" />
+      <Line endX="-18.5" endY="-1.0" layoutX="559.0" layoutY="145.0" startX="-103.5" startY="-1.0" />
+      <Line endX="-18.5" endY="-1.0" layoutX="559.0" layoutY="190.0" startX="-103.5" startY="-1.0" />
+      <Line endX="-18.5" endY="-1.0" layoutX="559.0" layoutY="235.0" startX="-103.5" startY="-1.0" />
+      <Line endX="-18.5" endY="-1.0" layoutX="559.0" layoutY="280.0" startX="-103.5" startY="-1.0" />
+      <Line endX="5.0" endY="-1.0" layoutX="535.0" layoutY="100.0" startX="-80.0" startY="-1.0" />
+      <TextField fx:id="WinField" alignment="CENTER" editable="false" layoutX="223.0" layoutY="46.0" prefHeight="25.0" prefWidth="156.0" promptText="Number dropped out " />
+      <Button fx:id="VoteButton0" layoutX="52.0" layoutY="311.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="72.0" text="Vote" />
+      <Label layoutX="85.0" layoutY="297.0" text="0" />
+      <Line endX="-105.0" endY="80.0" layoutX="115.0" layoutY="260.0" startX="-105.0" startY="39.0" />
+      <Line endX="-104.0" endY="80.0" layoutX="269.0" layoutY="261.0" startX="-104.0" startY="38.0" />
+      <TextField fx:id="EnterBetField" alignment="CENTER" layoutX="223.0" layoutY="361.0" prefHeight="25.0" prefWidth="156.0" promptText="Enter your bet" />
+      <Line endX="51.5" endY="-1.0" layoutX="114.0" layoutY="342.0" startX="-104.0" startY="-1.0" />
+      <Label layoutX="541.0" layoutY="113.0" text="x3" />
+      <Label layoutX="541.0" layoutY="161.0" text="x3" />
+      <Label layoutX="541.0" layoutY="203.0" text="x3" />
+      <Label layoutX="541.0" layoutY="244.0" text="x2" />
+      <Label layoutX="541.0" layoutY="291.0" text="x2" />
+      <Label layoutX="150.0" layoutY="249.0" text="x2" />
+      <Label layoutX="150.0" layoutY="199.0" text="x3" />
+      <Label layoutX="150.0" layoutY="149.0" text="x3" />
+      <Label layoutX="150.0" layoutY="99.0" text="x3" />
+      <Label layoutX="150.0" layoutY="299.0" text="x5" />
+   </children>
+</AnchorPane>

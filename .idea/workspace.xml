@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5248d77b-26f5-4a82-b665-15d9813df0bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/casino.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/casino.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_11_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_11_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Bet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/DrumBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/DrumBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/OtherInterf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/OtherInterf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/RRbet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/RRbet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/BetRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/BetRoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/DrumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/DrumController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/EditingDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/EditingDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/ErrorNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/ErrorNum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/MLose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/MLose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/MessageWinSlotMachines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/MessageWinSlotMachines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/NotBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/NotBalance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/PaymentDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/PaymentDataController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/PlusBalanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/PlusBalanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/RRRoommController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/RRRoommController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/RegUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/RegUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/sampleUserAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/sampleUserAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/BalanceInp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/BalanceInp.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/BetRoom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/BetRoom.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/Drum.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/Drum.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/EditingData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/EditingData.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/ErrorNum.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/ErrorNum.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/MSlotMachinesLose.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/MSlotMachinesLose.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/MessageInSlotMachinesWIN.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/MessageInSlotMachinesWIN.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/NotBalance.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/NotBalance.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/PayData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/PayData.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/RRRoomm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/RRRoomm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/RegistrationUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/RegistrationUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/app.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/sampleee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/sampleee.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/optimiztion" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YCv9IZ8F3fgi2Q14K40AYqO5kH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java/javafx-sdk-11.0.2/lib" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BackEnd.Main" />
+      <module name="casino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BackEnd.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5248d77b-26f5-4a82-b665-15d9813df0bb" name="Default Changelist" comment="" />
+      <created>1582459237296</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582459237296</updated>
+      <workItem from="1582955940030" duration="221000" />
+      <workItem from="1583230301039" duration="4018000" />
+      <workItem from="1583414809962" duration="904000" />
+      <workItem from="1583511740851" duration="1271000" />
+      <workItem from="1583631465412" duration="120000" />
+      <workItem from="1583970349138" duration="376000" />
+      <workItem from="1584819585063" duration="5165000" />
+      <workItem from="1584873950358" duration="157000" />
+      <workItem from="1585205847174" duration="337000" />
+      <workItem from="1585312658024" duration="1942000" />
+      <workItem from="1601722456829" duration="50000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="599" y="106" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1601725032468">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="599" y="106" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1601725032468" />
+    <state x="475" y="209" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1601725931847">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="209" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1601725931847" />
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1601725027902">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601725027902" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601727810931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601727810931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601727810931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601727810931">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1601725925934">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601725925934" />
+  </component>
+</project>

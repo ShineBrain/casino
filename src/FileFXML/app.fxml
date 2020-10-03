@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllerss.sampleUserAccountController">
+   <children>
+      <Label layoutX="250.0" layoutY="32.0" prefHeight="28.0" prefWidth="106.0" text="Menu" AnchorPane.bottomAnchor="340.0" AnchorPane.leftAnchor="250.0" AnchorPane.rightAnchor="244.0" AnchorPane.topAnchor="32.0">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="42.0" layoutY="69.0" prefHeight="153.0" prefWidth="516.0" text="    The rules of the game &quot;Slot machines&quot;&#10;The user selects a room (from the first to the eighth) and selects any number in the range&#10;from 1 to 6. Depending on the room, the rate changes. If the user guesses the number, &#10;the bet is written to his account. If the user does not guess the number, the rate is debited&#10;from the user's account and is recorded in the general account of the administrator.&#10;    The rules of the game &quot;Russian Roulette&quot;&#10;The user selects a room (first to sixth). The rate varies depending on the room. The game &#10;occurs when 6 people are recruited in the room. After recruiting 6 people, the winner is &#10;chosen by lot. 98% of the total bet of all players is credited to his account, and the &#10;remaining 2% is credited to the administrator’s personal account.&#10;    The rules of the game &quot;Drum&quot;&#10;The user enters a bet and selects a game option: by column, by number intervals, by&#10;color or zero. Each version of the game has a different winning ratio. If the user wins, then&#10;the bet multiplied by the coefficient is credited to his account, with 2% of the winnings&#10;credited to the administrator’s personal account. In case of loss, the bet is debited from &#10;the user's account. Bet must be in range of 1 and 1000000 including." AnchorPane.leftAnchor="42.0" AnchorPane.rightAnchor="42.0" />
+      <Button fx:id="Payment_data_button" layoutX="97.0" layoutY="227.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="422.0" text="Client information" AnchorPane.bottomAnchor="144.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="228.0" />
+      <Button fx:id="BetButton" layoutX="96.0" layoutY="253.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="422.0" text="Slot machines" AnchorPane.bottomAnchor="115.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="257.0" />
+      <Button fx:id="RussianRouletteButton" layoutX="97.0" layoutY="279.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="422.0" text="Russian roulette" AnchorPane.bottomAnchor="86.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="286.0" />
+      <Button fx:id="DrumButton" layoutX="99.0" layoutY="315.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="422.0" text="Drum" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="97.0" />
+      <Button fx:id="BackButton" layoutX="97.0" layoutY="361.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="210.0" text="Exit" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="97.0" AnchorPane.rightAnchor="310.0" AnchorPane.topAnchor="361.0" />
+      <Button fx:id="ExitButton" layoutX="300.0" layoutY="361.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="200.0" text="Close application" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="310.0" AnchorPane.rightAnchor="97.0" AnchorPane.topAnchor="361.0" />
+   </children>
+</AnchorPane>
