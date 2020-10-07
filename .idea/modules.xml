@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/.idea/UpDate2.0.iml" filepath="$PROJECT_DIR$/.idea/UpDate2.0.iml" />
-=======
       <module fileurl="file://$PROJECT_DIR$/casino.iml" filepath="$PROJECT_DIR$/casino.iml" />
->>>>>>> UpDate2.0
     </modules>
   </component>
 </project>
