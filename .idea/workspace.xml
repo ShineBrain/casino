@@ -1,51 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5248d77b-26f5-4a82-b665-15d9813df0bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javafx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/casino.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/casino.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_11_0_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk_11_0_22.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/UpDate2.0.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Bet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/DrumBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/DrumBet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/OtherInterf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/OtherInterf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/RRbet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/RRbet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/BetRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/BetRoomController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/DrumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/DrumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/EditingDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/EditingDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/ErrorNum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/ErrorNum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/MLose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/MLose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/MessageWinSlotMachines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/MessageWinSlotMachines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/NotBalance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/NotBalance.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/PaymentDataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/PaymentDataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/PlusBalanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/PlusBalanceController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/RRRoommController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/RRRoommController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/RegUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/RegUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controllerss/sampleUserAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/sampleUserAccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/BalanceInp.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/BalanceInp.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/BetRoom.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/BetRoom.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/Drum.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/Drum.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/EditingData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/EditingData.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/ErrorNum.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/ErrorNum.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/MSlotMachinesLose.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/MSlotMachinesLose.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/MessageInSlotMachinesWIN.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/MessageInSlotMachinesWIN.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/NotBalance.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/NotBalance.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/PayData.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/PayData.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/RRRoomm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/RRRoomm.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/RegistrationUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/RegistrationUser.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/app.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/sampleee.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/sampleee.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Java/javafx-sdk-11.0.2/lib" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -109,7 +73,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -160,6 +124,18 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="538" y="236" key="#Notifications" timestamp="1602100158397">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="538" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1602100158397" />
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602099443136">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602099443136" />
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602099558478">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1602099558478" />
     <state x="599" y="106" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1601725032468">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -168,29 +144,33 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="475" y="209" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1601725931847" />
-    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1601725027902">
+    <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1602100278646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601725027902" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1601727810931">
+    <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602100278646" />
+    <state x="473" y="154" key="FileChooserDialogImpl" timestamp="1602100267835">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1601727810931">
+    <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602100267835" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1602100020502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1601727810931">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1602100020502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1601727810931">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1602100020502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601727810931" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1601725925934">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1602100020502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601725925934" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1602100292560">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602100292560" />
   </component>
 </project>
