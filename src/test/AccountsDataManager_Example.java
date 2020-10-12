@@ -1,7 +1,13 @@
+package test;
 import BackEnd.Account;
 import BackEnd.AccountsDataManager;
 
-public class AccountDataManager_Example {
+/*
+ * EXAMPLE
+ * FOR EDUCATIONAL PURPOSES ONLY
+ */
+
+public class AccountsDataManager_Example {
     public static void main(String[] args) {
         AccountsDataManager dm = new AccountsDataManager();
 

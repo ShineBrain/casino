@@ -47,6 +47,8 @@ void initialize() {
                                     Account account = new Account(LoginRegField.getText(), PasswordRegField.getText(), CardNumberRegField.getText(), str, ExpirationDataRegField.getText(), CVVGegField.getText());
                                     accounts.add(account);
 
+                                    // TODO: Здесь нужна запись нового пользователя в файл
+
                                     OtherInterf.FXNotification("The account is registered");
 
                                     Stage stg = (Stage) BackGerField.getScene().getWindow();

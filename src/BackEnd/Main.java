@@ -20,6 +20,8 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         Account account = new Account();
+
+        // TODO: Убрать после удаления функции
         account.TestCreateAccount();
 
         launch(args);

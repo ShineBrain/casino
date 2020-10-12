@@ -15,6 +15,7 @@ public class Account {
 
     public static ArrayList<Account> accounts = new ArrayList<>();
 
+    // TODO: Добавить в конструктор, не принимающий аргументов, загрузку всех пользователей из файла
     public Account(){}
 
     public Account(String Login, String Password, String CardNumber, String FullName, String DateExpirationCard, String CVV){
@@ -91,6 +92,7 @@ public class Account {
         }
     }
 
+    // TODO: Убрать эту функцию после успешной реализации/тестирования работы с файлом из библиотеки
     public void TestCreateAccount(){
         accounts.add(new Account("Player1", "111", "1111222233334444", "As Sa", "11.01", "123"));
         accounts.add(new Account("Player2", "222", "2222333344445555", "Ed Di", "22.01", "456"));
