@@ -94,7 +94,7 @@ public class Account {
 
     // TODO: Убрать эту функцию после успешной реализации/тестирования работы с файлом из библиотеки
     public void TestCreateAccount(){
-        accounts.add(new Account("Player1", "111", "1111222233334444", "As Sa", "11.01", "123"));
+        accounts.add(new Account("qwe", "123", "1111222233334444", "As Sa", "11.01", "123"));
         accounts.add(new Account("Player2", "222", "2222333344445555", "Ed Di", "22.01", "456"));
         accounts.add(new Account("Player3", "333", "3333444455556666", "Mi Is", "17.03", "789"));
         accounts.add(new Account("Player4", "444", "3333634523556666", "Di Im", "23.03", "321"));

@@ -1,4 +1,4 @@
-package test;
+package test.AccountsDataManager;
 import BackEnd.Account;
 import BackEnd.AccountsDataManager;
 

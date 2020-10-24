@@ -15,6 +15,7 @@ public class Main extends Application {
         primaryStage.setTitle("Casino");
         primaryStage.getIcons().add(new Image("file:src/ImgK.png"));
         primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.setResizable(false);
         primaryStage.show();
     }
 
