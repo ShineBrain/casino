@@ -43,7 +43,8 @@ public class Account {
                 NumberUser = i;
                 break;
             }
-            else bool = false;
+            else
+                bool = false;
         }
         return bool;
     }
@@ -56,10 +57,13 @@ public class Account {
         return true;
     }
 
-    protected boolean CheckBalance(int bet){ return bet == accounts.get(NumberUser).Balance || bet < accounts.get(NumberUser).Balance; }
+    protected boolean CheckBalance(int bet){
+        return bet == accounts.get(NumberUser).Balance || bet < accounts.get(NumberUser).Balance;
+    }
 
     protected double MinusBalance(int bet){
         accounts.get(NumberUser).Balance -= bet;
+
         return bet;
     }
 

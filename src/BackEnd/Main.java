@@ -5,7 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Main extends Application {
 
@@ -16,6 +18,7 @@ public class Main extends Application {
         primaryStage.getIcons().add(new Image("file:src/ImgK.png"));
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.setResizable(false);
+        //primaryStage.initStyle(StageStyle.UTILITY);
         primaryStage.show();
     }
 
