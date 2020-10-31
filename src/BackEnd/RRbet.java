@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import static BackEnd.OtherInterf.Transition;
 
 public class RRbet extends Bet {
-    protected static ArrayList<Account> Room0 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room1 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room2 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room3 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room4 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room5 = new ArrayList<>(6);
+    protected static ArrayList<Account> Room0 = new ArrayList<>();
+    protected static ArrayList<Account> Room1 = new ArrayList<>();
+    protected static ArrayList<Account> Room2 = new ArrayList<>();
+    protected static ArrayList<Account> Room3 = new ArrayList<>();
+    protected static ArrayList<Account> Room4 = new ArrayList<>();
+    protected static ArrayList<Account> Room5 = new ArrayList<>();
 
     protected String Conversion(int Number){ return String.valueOf(Number); }
     private void ClearRoom(ArrayList<Account> Room){ Room.clear(); }
@@ -34,19 +34,19 @@ public class RRbet extends Bet {
             //System.out.println("Size > 6");
     }
 
-    protected void RRGame(ArrayList<Account> Room, int bet, double coefficient, int percent){
+    public void RRGame(ArrayList<Account> Room, int bet, double coefficient, int percent){
         if (CheckBalance(bet)){
-            MinusBalance(bet);
+            //MinusBalance(bet);
             AddAccount(Room);
 
-            Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            /*Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Notification");
             alert.setHeaderText(null);
             alert.setContentText("You are in the game");
-            alert.showAndWait();
+            alert.showAndWait();*/
 
             if (Room.size() == 6){
-                int answer = 1 + (int)(Math.random() * 6);
+                int answer = 0 + (int)(Math.random() * 6);
                 Account winner = Room.get(answer);
 
                 for (Account account : accounts) {

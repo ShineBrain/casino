@@ -15,12 +15,12 @@ public class PageRegistration {
         this.cardNumber = cardNumber;
     }
 
-    public boolean CheckAccount(){
+    /*public boolean CheckAccount(){
         account.TestCreateAccount();
 
         if (account.CheckDuplicateAccount(login, cardNumber)){
             return false;
         }
         return true;
-    }
+    }*/
 }

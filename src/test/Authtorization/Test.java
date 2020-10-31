@@ -1,4 +1,4 @@
-package test.Authtorization;
+package Test.Authtorization;
 
 import BackEnd.Account;
 
@@ -10,7 +10,7 @@ public class Test {
     private static final String TestPassword2 = "123";
 
     public static void main(String[] args) {
-        System.out.println("\t\t\t\t Verification authorization");
+       System.out.println("\t\t\t\t Verification authorization");
 
         Account account = new Account();
 

@@ -24,18 +24,21 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:origin/UpDate2.0" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/develop" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5248d77b-26f5-4a82-b665-15d9813df0bb" name="Default Changelist" comment="24.10.20 | Иконка + Статичность окна авторизации + Тест авторизации">
-      <change afterPath="$PROJECT_DIR$/src/test/Registration/PageRegistration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/Registration/TestReg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/BackEnd/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FileFXML/RegistrationUser.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/RegistrationUser.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Bet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/RRbet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/RRbet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Authtorization/PageAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Authtorization/PageAuthorization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Authtorization/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Authtorization/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Registration/PageRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Registration/PageRegistration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Registration/TestReg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Registration/TestReg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +82,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="AccountsDataManagerImpl" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -99,7 +102,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pr4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -107,12 +110,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TestRR">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BackEnd.Main" />
       <module name="casino" />
@@ -132,6 +135,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="test.Authtorization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Games.RussianRoulette.TestRR" />
+      <module name="casino" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Test.Games.RussianRoulette.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,6 +183,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestRR" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.TestReg" />
         <item itemvalue="Application.TestUI" />
@@ -174,7 +191,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -206,6 +223,8 @@
       <workItem from="1603559677288" duration="73000" />
       <workItem from="1603728371953" duration="233000" />
       <workItem from="1603850758628" duration="4717000" />
+      <workItem from="1604177461905" duration="100000" />
+      <workItem from="1604177575888" duration="4793000" />
     </task>
     <task id="LOCAL-00001" summary="24.10.20 | Иконка + Статичность окна авторизации + Тест авторизации">
       <created>1603500459643</created>
@@ -238,7 +257,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/UpDate2.0" />
+                        <option value="origin/develop" />
                       </list>
                     </value>
                   </entry>
@@ -260,6 +279,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="538" y="236" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1602100158397" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1604177580667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1604177580667" />
     <state x="756" y="221" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603485440525">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -287,31 +310,35 @@
     </state>
     <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602100278646" />
     <state x="624" y="211" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603484906248" />
-    <state x="1001" y="212" key="FileChooserDialogImpl" timestamp="1603728399806">
+    <state x="1001" y="212" key="FileChooserDialogImpl" timestamp="1604177560722">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602100267835" />
-    <state x="1001" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603728399806" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom" timestamp="1603855186669">
+    <state x="1001" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604177560722" />
+    <state width="1877" height="560" key="GridCell.Tab.0.bottom" timestamp="1604183731381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603855186669" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center" timestamp="1603855186669">
+    <state width="1877" height="560" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731381" />
+    <state width="852" height="216" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084856" />
+    <state width="1877" height="560" key="GridCell.Tab.0.center" timestamp="1604183731381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603855186669" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left" timestamp="1603855186669">
+    <state width="1877" height="560" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731381" />
+    <state width="852" height="216" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084855" />
+    <state width="1877" height="560" key="GridCell.Tab.0.left" timestamp="1604183731380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603855186669" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right" timestamp="1603855186669">
+    <state width="1877" height="560" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731380" />
+    <state width="852" height="216" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084855" />
+    <state width="1877" height="560" key="GridCell.Tab.0.right" timestamp="1604183731381">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603855186669" />
+    <state width="1877" height="560" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731381" />
+    <state width="852" height="216" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084856" />
     <state x="481" y="118" key="SettingsEditor" timestamp="1603557458426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

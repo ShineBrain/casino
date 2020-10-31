@@ -3,7 +3,7 @@ package test.Registration;
 import BackEnd.Account;
 
 public class TestReg {
-    private static final Account account = new Account();
+  /*  private static final Account account = new Account();
 
     private static final String login1 = "User1";
     private static final String cardNumber1 = "9898878765654343";
@@ -37,5 +37,5 @@ public class TestReg {
             System.out.println("Account does not exist");
 
         System.out.println("----------------------------------------------------------------");
-    }
+    }*/
 }

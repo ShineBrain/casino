@@ -1,4 +1,4 @@
-package test.Authtorization;
+package Test.Authtorization;
 
 import BackEnd.Account;
 

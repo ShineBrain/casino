@@ -57,7 +57,7 @@ public class Account {
         return true;
     }
 
-    protected boolean CheckBalance(int bet){
+    public boolean CheckBalance(int bet){
         return bet == accounts.get(NumberUser).Balance || bet < accounts.get(NumberUser).Balance;
     }
 
@@ -105,4 +105,13 @@ public class Account {
         accounts.add(new Account("Player5", "555", "3333444458786666", "Ig Go", "01.03", "654"));
         accounts.add(new Account("Player6", "666", "3311134465556666", "Ch He", "04.03", "987"));
     }
+
+    // TODO: Убрать эту функцию после успешной реализации/тестирования работы с файлом из библиотеки
+    public void TestCreateAccount5el(){
+        accounts.add(new Account("qwe", "123", "1111222233334444", "As Sa", "11.01", "123"));
+        accounts.add(new Account("Player2", "222", "2222333344445555", "Ed Di", "22.01", "456"));
+        accounts.add(new Account("Player3", "333", "3333444455556666", "Mi Is", "17.03", "789"));
+        accounts.add(new Account("Player5", "555", "3333444458786666", "Ig Go", "01.03", "654"));
+    }
+
 }
