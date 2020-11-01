@@ -26,9 +26,11 @@ public class DrumBet extends RRbet implements OtherInterf {
         return bool;
     }
 
-    private boolean CheckBet(int bet){ return bet > 0 && bet < 1000001; }
+    private boolean CheckBet(int bet){
+        return bet > 0 && bet < 1000001;
+    }
 
-    protected void VoteColor(String color, int bet, int percent, double coefficient){
+    public void VoteColor(String color, int bet, int percent, double coefficient){
         int answer = 1 + (int)(Math.random() * 36);
         int distributor;
 
@@ -77,7 +79,7 @@ public class DrumBet extends RRbet implements OtherInterf {
         }
     }
 
-    protected void VoteColumn(int numberColumn, int bet, int percent, double coefficient){
+    public void VoteColumn(int numberColumn, int bet, int percent, double coefficient){
         int answer = 1 + (int)(Math.random() * 36);
 
         int[] array1 = {1, 4, 7, 10, 13, 16, 19, 22, 25, 28, 31, 34};
@@ -144,7 +146,7 @@ public class DrumBet extends RRbet implements OtherInterf {
         }
     }
 
-    protected void FromTo(int from, int to, int bet, int percent, double coefficient){
+    public void FromTo(int from, int to, int bet, int percent, double coefficient){
         int answer = (int) (Math.random() * 36);
 
         if (CheckBet(bet)){

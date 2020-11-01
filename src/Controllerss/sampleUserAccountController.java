@@ -61,9 +61,5 @@ public class sampleUserAccountController implements OtherInterf {
 
             OtherInterf.Transition("/FileFXML/sampleee.fxml");
         });
-
-        ExitButton.setOnAction(event -> {
-            System.exit(0);
-        });
     }
 }
