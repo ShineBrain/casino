@@ -29,16 +29,21 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5248d77b-26f5-4a82-b665-15d9813df0bb" name="Default Changelist" comment="24.10.20 | Иконка + Статичность окна авторизации + Тест авторизации">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="5248d77b-26f5-4a82-b665-15d9813df0bb" name="Default Changelist" comment="V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/Bet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/Bet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BackEnd/RRbet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/RRbet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Authtorization/PageAuthorization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Authtorization/PageAuthorization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Authtorization/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Authtorization/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/app.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Registration/PageRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Registration/PageRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/Registration/TestReg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Registration/TestReg.java" afterDir="false" />
+    </list>
+    <list id="78387f04-b364-4d52-977f-21b2acce1b55" name="02.11.20 небольшой реворк графического интерфейса + тест барабана + удаление кнопки Close application" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/Games/Drum/CheckBalanceDrum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Games/Drum/GameProcess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/Games/Drum/TestD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/DrumBet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/DrumBet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BackEnd/RRbet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BackEnd/RRbet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controllerss/sampleUserAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controllerss/sampleUserAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FileFXML/app.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/FileFXML/app.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,13 +92,62 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/FileFXML/app.fxml">
+      <ranges>
+        <range start1="7" end1="7" start2="7" end2="8" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="16" end1="22" start2="17" end2="22" changelist="78387f04-b364-4d52-977f-21b2acce1b55" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/.idea/workspace.xml">
+      <ranges>
+        <range start1="31" end1="33" start2="31" end2="32" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="34" end1="39" start2="33" end2="34" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="42" end1="42" start2="37" end2="47" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="89" end1="89" start2="94" end2="140" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="90" end1="91" start2="141" end2="144" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="96" end1="96" start2="149" end2="150" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="117" end1="118" start2="171" end2="172" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="131" end1="133" start2="185" end2="187" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="136" end1="137" start2="190" end2="191" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="185" end1="186" start2="239" end2="239" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="187" end1="187" start2="240" end2="242" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="189" end1="190" start2="244" end2="244" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="200" end1="200" start2="254" end2="255" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="226" end1="227" start2="281" end2="287" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="242" end1="243" start2="302" end2="317" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="273" end1="273" start2="347" end2="348" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="274" end1="275" start2="349" end2="356" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="290" end1="291" start2="371" end2="372" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="293" end1="294" start2="374" end2="375" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="312" end1="313" start2="393" end2="394" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="316" end1="318" start2="397" end2="399" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="321" end1="322" start2="402" end2="403" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="323" end1="324" start2="404" end2="405" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="327" end1="328" start2="408" end2="409" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="329" end1="330" start2="410" end2="411" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="333" end1="334" start2="414" end2="415" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="335" end1="336" start2="416" end2="417" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="339" end1="340" start2="420" end2="421" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="346" end1="347" start2="427" end2="428" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="349" end1="350" start2="430" end2="435" changelist="5248d77b-26f5-4a82-b665-15d9813df0bb" />
+        <range start1="354" end1="355" start2="439" end2="440" changelist="78387f04-b364-4d52-977f-21b2acce1b55" />
+        <range start1="357" end1="358" start2="442" end2="443" changelist="78387f04-b364-4d52-977f-21b2acce1b55" />
+        <range start1="362" end1="363" start2="447" end2="452" changelist="78387f04-b364-4d52-977f-21b2acce1b55" />
+        <range start1="365" end1="366" start2="454" end2="455" changelist="78387f04-b364-4d52-977f-21b2acce1b55" />
+      </ranges>
+    </file>
+  </component>
   <component name="ProjectId" id="1YCv9IZ8F3fgi2Q14K40AYqO5kH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -115,7 +169,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
-  <component name="RunManager" selected="Application.TestRR">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BackEnd.Main" />
       <module name="casino" />
@@ -129,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.Authtorization.Test" />
+    <configuration name="TestD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test.Games.Drum.TestD" />
       <module name="casino" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.Authtorization.*" />
+          <option name="PATTERN" value="Test.Games.Drum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TestRR" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TestD" />
+        <item itemvalue="Application.TestRR" />
         <item itemvalue="Application.TestReg" />
         <item itemvalue="Application.TestUI" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -198,6 +252,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5248d77b-26f5-4a82-b665-15d9813df0bb" name="Default Changelist" comment="" />
+      <changelist id="78387f04-b364-4d52-977f-21b2acce1b55" name="02.11.20 небольшой реворк графического интерфейса + тест барабана + удаление кнопки Close application" comment="" />
       <created>1582459237296</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -224,7 +279,12 @@
       <workItem from="1603728371953" duration="233000" />
       <workItem from="1603850758628" duration="4717000" />
       <workItem from="1604177461905" duration="100000" />
-      <workItem from="1604177575888" duration="4793000" />
+      <workItem from="1604177575888" duration="5055000" />
+      <workItem from="1604242680392" duration="7907000" />
+      <workItem from="1604274706607" duration="779000" />
+      <workItem from="1604275514783" duration="384000" />
+      <workItem from="1604275910239" duration="166000" />
+      <workItem from="1604276086175" duration="798000" />
     </task>
     <task id="LOCAL-00001" summary="24.10.20 | Иконка + Статичность окна авторизации + Тест авторизации">
       <created>1603500459643</created>
@@ -240,7 +300,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603551686108</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="01.11.20 Фикс ошибки в RR + тест RR + тест SM + незначительные поправки">
+      <created>1604183906631</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604183906631</updated>
+    </task>
+    <task id="LOCAL-00004" summary="02.11.20 небольшой реворк графического интерфейса + тест барабана + удаление кнопки Close application">
+      <created>1604275114112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604275114112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,8 +345,15 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="24.10.20 | Иконка + Статичность окна авторизации + Тест авторизации" />
-    <option name="LAST_COMMIT_MESSAGE" value="24.10.20 | Иконка + Статичность окна авторизации + Тест авторизации" />
+    <MESSAGE value="01.11.20 Фикс ошибки в RR + тест RR + тест SM + незначительные поправки" />
+    <MESSAGE value="02.11.20 небольшой реворк графического интерфейса + тест барабана + удаление кнопки Close application" />
+    <MESSAGE value="02.11.20 небольшой реворк графического интерфейса + тест барабана + удаление кнопки Close application." />
+    <MESSAGE value="V2" />
+    <MESSAGE value="." />
+    <MESSAGE value="02.11.20" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.11.20" />
   </component>
   <component name="WindowStateProjectService">
     <state x="538" y="236" key="#Notifications" timestamp="1602100158397">
@@ -288,10 +369,10 @@
     </state>
     <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602099443136" />
     <state x="756" y="221" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603485440525" />
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603498280521">
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1604252839962">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1603498280521" />
+    <state x="765" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604252839962" />
     <state x="498" y="202" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1602099558478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -310,44 +391,48 @@
     </state>
     <state x="499" y="167" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1536.824@0.0.1536.824" timestamp="1602100278646" />
     <state x="624" y="211" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603484906248" />
-    <state x="1001" y="212" key="FileChooserDialogImpl" timestamp="1604177560722">
+    <state x="1001" y="212" key="FileChooserDialogImpl" timestamp="1604274715067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="473" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602100267835" />
-    <state x="1001" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604177560722" />
-    <state width="1877" height="560" key="GridCell.Tab.0.bottom" timestamp="1604183731381">
+    <state x="1001" y="212" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604274715067" />
+    <state width="914" height="137" key="GridCell.Tab.0.bottom" timestamp="1604275486035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="560" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731381" />
+    <state width="914" height="137" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604275486035" />
     <state width="852" height="216" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084856" />
-    <state width="1877" height="560" key="GridCell.Tab.0.center" timestamp="1604183731381">
+    <state width="914" height="137" key="GridCell.Tab.0.center" timestamp="1604275486035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="560" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731381" />
+    <state width="914" height="137" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604275486035" />
     <state width="852" height="216" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084855" />
-    <state width="1877" height="560" key="GridCell.Tab.0.left" timestamp="1604183731380">
+    <state width="914" height="137" key="GridCell.Tab.0.left" timestamp="1604275486035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="560" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731380" />
+    <state width="914" height="137" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604275486035" />
     <state width="852" height="216" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084855" />
-    <state width="1877" height="560" key="GridCell.Tab.0.right" timestamp="1604183731381">
+    <state width="914" height="137" key="GridCell.Tab.0.right" timestamp="1604275486035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1602100020502" />
-    <state width="1877" height="560" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604183731381" />
+    <state width="914" height="137" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604275486035" />
     <state width="852" height="216" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604093084856" />
     <state x="481" y="118" key="SettingsEditor" timestamp="1603557458426">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1602100292560" />
     <state x="481" y="118" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1603557458426" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1603551709109">
+    <state x="1287" y="440" key="VCS.ChangelistChooser" timestamp="1604275454142">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603551709109" />
+    <state x="1287" y="440" key="VCS.ChangelistChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1604275454142" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1604276173728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604276173728" />
     <state x="731" y="467" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1603485733137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

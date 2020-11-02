@@ -1,4 +1,4 @@
-package test.Registration;
+package Test.Registration;
 
 import BackEnd.Account;
 
@@ -15,12 +15,12 @@ public class PageRegistration {
         this.cardNumber = cardNumber;
     }
 
-    /*public boolean CheckAccount(){
+    public boolean CheckAccount(){
         account.TestCreateAccount();
 
         if (account.CheckDuplicateAccount(login, cardNumber)){
             return false;
         }
         return true;
-    }*/
+    }
 }
