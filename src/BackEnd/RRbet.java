@@ -30,20 +30,20 @@ public class RRbet extends Bet {
     protected void AddAccount(ArrayList<Account> Room){
         if (Room.size() < 7 && CheckOnCoincidence(Room, accounts.get(NumberUser)))
             Room.add(accounts.get(NumberUser));
-        //else
-            //System.out.println("Size > 6");
+        else
+            System.out.println("Size > 6");
     }
 
     public void RRGame(ArrayList<Account> Room, int bet, double coefficient, int percent){
         if (CheckBalance(bet)){
-            //MinusBalance(bet);
+            MinusBalance(bet);
             AddAccount(Room);
 
-            /*Alert alert = new Alert(Alert.AlertType.INFORMATION);
+            Alert alert = new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("Notification");
             alert.setHeaderText(null);
             alert.setContentText("You are in the game");
-            alert.showAndWait();*/
+            alert.showAndWait();
 
             if (Room.size() == 6){
                 int answer = 0 + (int)(Math.random() * 6);
@@ -61,10 +61,10 @@ public class RRbet extends Bet {
 
                         ClearRoom(Room);
                         break;
-                    } //else System.out.println("Not user");
+                    } else System.out.println("Not user");
                 }
 
-            } //else System.out.println("Size != 6");
+            } else System.out.println("Size != 6");
         } else Transition("/FileFXML/NotBalance.fxml");
     }
 }

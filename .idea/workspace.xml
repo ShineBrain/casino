@@ -352,17 +352,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="467" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1603485733137" />
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1603850786960">
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604242693827">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1603850786960" />
+    <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1604242693827" />
     <state x="1219" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603557602357">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1219" y="233" key="git4idea.branch.GitSmartOperationDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603557602357" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1603499066656">
+    <state x="755" y="267" key="refactoring.ChangeSignatureDialog" timestamp="1604253048295">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603499066656" />
+    <state x="755" y="267" key="refactoring.ChangeSignatureDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604253048295" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604254038399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604254038399" />
   </component>
 </project>
