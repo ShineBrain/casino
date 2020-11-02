@@ -3,7 +3,6 @@ package Test.Games.Drum;
 import BackEnd.Account;
 
 public class CheckBalanceDrum {
-    //Проверка баланса
     private final Account account;
     private final int numberUser;
     private final double balanceUser;
