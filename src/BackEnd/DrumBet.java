@@ -3,6 +3,7 @@ package BackEnd;
 public class DrumBet extends RRbet implements OtherInterf {
     protected int DropNum = 0;
 
+    //метод подсчета выигрыша
     protected void Calculations(int bet, int percent, double coefficient){
         MinusBalance(bet);
 
@@ -14,6 +15,7 @@ public class DrumBet extends RRbet implements OtherInterf {
         accounts.get(NumberUser).Balance += FinalWinBet;
     }
 
+    //метод проверки числа на совпадение с элементом массива
     private boolean CheckArray(int[] array, int number){
         boolean bool = false;
 
@@ -26,10 +28,12 @@ public class DrumBet extends RRbet implements OtherInterf {
         return bool;
     }
 
+    //проверка ставки
     private boolean CheckBet(int bet){
         return bet > 0 && bet < 1000001;
     }
 
+    //метод для проведения игры по цвету(red, black) для игры drum
     public void VoteColor(String color, int bet, int percent, double coefficient){
         int answer = 1 + (int)(Math.random() * 36);
         int distributor;
@@ -79,6 +83,7 @@ public class DrumBet extends RRbet implements OtherInterf {
         }
     }
 
+    //метод проведения игры по столбцу(drum)
     public void VoteColumn(int numberColumn, int bet, int percent, double coefficient){
         int answer = 1 + (int)(Math.random() * 36);
 
@@ -146,6 +151,7 @@ public class DrumBet extends RRbet implements OtherInterf {
         }
     }
 
+    //метод проведения игры по заданному интервалу чисел(drum)
     public void FromTo(int from, int to, int bet, int percent, double coefficient){
         int answer = (int) (Math.random() * 36);
 

@@ -20,9 +20,6 @@ public class sampleUserAccountController implements OtherInterf {
     private Button BackButton;
 
     @FXML
-    private Button ExitButton;
-
-    @FXML
     private Button DrumButton;
 
     @FXML

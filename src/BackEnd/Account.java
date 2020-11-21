@@ -27,6 +27,7 @@ public class Account {
         this.CVV = CVV;
     }
 
+    //Метод преобразует буквы в верхний регистр
     public String TransformationFullName(String string){
         String str = string.toUpperCase();
         char[] arrayChar = str.toCharArray();
@@ -34,6 +35,7 @@ public class Account {
         return String.valueOf(arrayChar);
     }
 
+    //Метод проверки аккаунта и выдачи идентификатора пользователю
     public Boolean CheckAccount(String str, String str1){
         boolean bool = false;
 
@@ -49,6 +51,7 @@ public class Account {
         return bool;
     }
 
+    //Метод проверки аккаунта на дубликаты
     public boolean CheckDuplicateAccount(String login, String cardNumber) {
         for (Account account : accounts) {
             if (login.equalsIgnoreCase(account.Login) || cardNumber.equals(account.CardNumber))
@@ -57,6 +60,7 @@ public class Account {
         return true;
     }
 
+    //Метод проверки баланса на достаточность
     public boolean CheckBalance(int bet){
         return bet == accounts.get(NumberUser).Balance || bet < accounts.get(NumberUser).Balance;
     }
@@ -67,6 +71,7 @@ public class Account {
         return bet;
     }
 
+    //Метод проверки срока годности карты
     protected boolean CheckDate(String expirationDataReg){
         try {
             char[] array = expirationDataReg.toCharArray();
@@ -97,6 +102,7 @@ public class Account {
     }
 
     // TODO: Убрать эту функцию после успешной реализации/тестирования работы с файлом из библиотеки
+    //Методы создания игровых аккаунтов
     public void TestCreateAccount(){
         accounts.add(new Account("qwe", "123", "1111222233334444", "As Sa", "11.01", "123"));
         accounts.add(new Account("Player2", "222", "2222333344445555", "Ed Di", "22.01", "456"));

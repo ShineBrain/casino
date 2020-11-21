@@ -62,7 +62,6 @@ public class BetRoomController extends Bet implements OtherInterf {
 
     @FXML
     void initialize() {
-
         Vote1.setOnAction(event -> {
             int bet = 500;
             double coefficient = 2;

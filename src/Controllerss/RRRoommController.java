@@ -50,7 +50,6 @@ public class RRRoommController extends RRbet implements OtherInterf {
 
     @FXML
     void initialize() {
-
         PlayersField1.setText(Conversion(Room0.size()));
         PlayersField2.setText(Conversion(Room1.size()));
         PlayersField3.setText(Conversion(Room2.size()));

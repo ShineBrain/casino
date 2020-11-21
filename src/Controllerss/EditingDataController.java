@@ -30,6 +30,7 @@ public class EditingDataController extends Account implements OtherInterf {
 
     @FXML
     void initialize() {
+        //в кнопке прописаны действия для проверки вводимых полей(изменение данных пользователя), запись в файл.
         ToChangeButton.setOnAction(event -> {
             if (NewCardNumberField.getText().length() == 16 && NewCardNumberField.getText().matches("\\d+")){
                 if (CheckDuplicateAccount("", NewCardNumberField.getText())) {

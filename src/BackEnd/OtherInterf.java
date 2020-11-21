@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public interface OtherInterf {
+    //метод для перехода между окнами приложения
     static void Transition(String path){
         FXMLLoader loader = new FXMLLoader(OtherInterf.class.getResource(path));
 
@@ -27,6 +28,7 @@ public interface OtherInterf {
         stage.show();
     }
 
+    //метод для вывода уведомлений
     static void FXNotification(String text){
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Notification");
