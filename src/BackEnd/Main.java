@@ -24,10 +24,16 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         Account account = new Account();
-
-        // TODO: Убрать после удаления функции
         account.TestCreateAccount();
 
+        AccountsDataManager adm = new AccountsDataManager();
+
+        adm.init();
+        Account.accounts = adm.getAll();
+
         launch(args);
+
+        adm.setData(Account.accounts);
+        adm.free();
     }
 }
