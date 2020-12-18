@@ -1,5 +1,7 @@
 /out/production/casino/
+.idea
 .DS_Store
+
 # Prerequisites
 *.d
 
