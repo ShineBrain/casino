@@ -30,6 +30,7 @@ public class EditingDataController extends Account implements OtherInterf {
 
     @FXML
     void initialize() {
+        //в кнопке прописаны действия для проверки вводимых полей(изменение данных пользователя), запись в файл.
         ToChangeButton.setOnAction(event -> {
             if (NewCardNumberField.getText().length() == 16 && NewCardNumberField.getText().matches("\\d+")){
                 if (CheckDuplicateAccount("", NewCardNumberField.getText())) {
@@ -41,6 +42,13 @@ public class EditingDataController extends Account implements OtherInterf {
                                 accounts.get(NumberUser).FullName = NewFullNameField.getText();
                                 accounts.get(NumberUser).DateExpirationCard = NewDataExpirationField.getText();
                                 accounts.get(NumberUser).CVV = NewCVVField.getText();
+
+                                // TODO: Здесь нужна перезапись новых данных пользователя в файл
+                                // Скорее всего, удалить имеющегося аккаунта и добавить нового
+                                /*
+                                 * Создать функцию нахождения аккаунта в классе Account, похожую на Account.CheckAccount,
+                                 * но возвращающую номер аккаунта в списке аккаунтов.
+                                 */
 
                                 Alert alert = new Alert(Alert.AlertType.INFORMATION);
 

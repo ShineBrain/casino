@@ -5,14 +5,17 @@ import java.util.ArrayList;
 import static BackEnd.OtherInterf.Transition;
 
 public class RRbet extends Bet {
-    protected static ArrayList<Account> Room0 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room1 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room2 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room3 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room4 = new ArrayList<>(6);
-    protected static ArrayList<Account> Room5 = new ArrayList<>(6);
+    protected static ArrayList<Account> Room0 = new ArrayList<>();
+    protected static ArrayList<Account> Room1 = new ArrayList<>();
+    protected static ArrayList<Account> Room2 = new ArrayList<>();
+    protected static ArrayList<Account> Room3 = new ArrayList<>();
+    protected static ArrayList<Account> Room4 = new ArrayList<>();
+    protected static ArrayList<Account> Room5 = new ArrayList<>();
 
+    //метод конверсии
     protected String Conversion(int Number){ return String.valueOf(Number); }
+
+    //метод очистки комнаты(Russian Roulette)
     private void ClearRoom(ArrayList<Account> Room){ Room.clear(); }
 
     private boolean CheckOnCoincidence(ArrayList<Account> Room, Account account){
@@ -27,14 +30,16 @@ public class RRbet extends Bet {
         return bool;
     }
 
+    //метод добавления аккаунта в комнату(Russian Roulette)
     protected void AddAccount(ArrayList<Account> Room){
         if (Room.size() < 7 && CheckOnCoincidence(Room, accounts.get(NumberUser)))
             Room.add(accounts.get(NumberUser));
-        //else
-            //System.out.println("Size > 6");
+        else
+            System.out.println("Size > 6");
     }
 
-    protected void RRGame(ArrayList<Account> Room, int bet, double coefficient, int percent){
+    //метод проведения игры(Russian Roulette)
+    public void RRGame(ArrayList<Account> Room, int bet, double coefficient, int percent){
         if (CheckBalance(bet)){
             MinusBalance(bet);
             AddAccount(Room);
@@ -46,7 +51,7 @@ public class RRbet extends Bet {
             alert.showAndWait();
 
             if (Room.size() == 6){
-                int answer = 1 + (int)(Math.random() * 6);
+                int answer = 0 + (int)(Math.random() * 6);
                 Account winner = Room.get(answer);
 
                 for (Account account : accounts) {
@@ -61,10 +66,11 @@ public class RRbet extends Bet {
 
                         ClearRoom(Room);
                         break;
-                    } //else System.out.println("Not user");
+                    } else System.out.println("Not user");
                 }
 
-            } //else System.out.println("Size != 6");
+            }
+            else System.out.println("Size != 6");
         } else Transition("/FileFXML/NotBalance.fxml");
     }
 }

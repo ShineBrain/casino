@@ -5,7 +5,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 
 public class Main extends Application {
 
@@ -15,6 +17,8 @@ public class Main extends Application {
         primaryStage.setTitle("Casino");
         primaryStage.getIcons().add(new Image("file:src/ImgK.png"));
         primaryStage.setScene(new Scene(root, 600, 400));
+        primaryStage.setResizable(false);
+        //primaryStage.initStyle(StageStyle.UTILITY);
         primaryStage.show();
     }
 
@@ -22,6 +26,14 @@ public class Main extends Application {
         Account account = new Account();
         account.TestCreateAccount();
 
+        AccountsDataManager adm = new AccountsDataManager();
+
+        adm.init();
+        Account.accounts = adm.getAll();
+
         launch(args);
+
+        adm.setData(Account.accounts);
+        adm.free();
     }
 }

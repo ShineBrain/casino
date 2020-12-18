@@ -11,6 +11,7 @@ import javafx.stage.Stage;
 import java.io.IOException;
 
 public interface OtherInterf {
+    //метод для перехода между окнами приложения
     static void Transition(String path){
         FXMLLoader loader = new FXMLLoader(OtherInterf.class.getResource(path));
 
@@ -21,12 +22,13 @@ public interface OtherInterf {
         Stage stage = new Stage();
         stage.initModality(Modality.APPLICATION_MODAL);
         stage.setTitle("Casino");
-        stage.getIcons().add(new Image("file:ImgK.png"));
+        stage.getIcons().add(new Image("file:src/ImgK.png"));
         stage.setResizable(false);
         stage.setScene(new Scene(root));
         stage.show();
     }
 
+    //метод для вывода уведомлений
     static void FXNotification(String text){
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Notification");

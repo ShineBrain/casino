@@ -20,9 +20,6 @@ public class sampleUserAccountController implements OtherInterf {
     private Button BackButton;
 
     @FXML
-    private Button ExitButton;
-
-    @FXML
     private Button DrumButton;
 
     @FXML
@@ -60,10 +57,6 @@ public class sampleUserAccountController implements OtherInterf {
             stg.close();
 
             OtherInterf.Transition("/FileFXML/sampleee.fxml");
-        });
-
-        ExitButton.setOnAction(event -> {
-            System.exit(0);
         });
     }
 }

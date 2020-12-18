@@ -35,6 +35,7 @@ private Button BackGerField;
 
 @FXML
 void initialize() {
+    //в кнопке прописаны действия для проверки вводимых полей(регистрация пользователя), запись в файл.
     RegButton.setOnAction(event -> {
             if (LoginRegField.getText().length() > 0 && LoginRegField.getText().length() < 17){
                 if (PasswordRegField.getText().length() > 0 && PasswordRegField.getText().length() < 17){
@@ -46,6 +47,8 @@ void initialize() {
 
                                     Account account = new Account(LoginRegField.getText(), PasswordRegField.getText(), CardNumberRegField.getText(), str, ExpirationDataRegField.getText(), CVVGegField.getText());
                                     accounts.add(account);
+
+                                    // TODO: Здесь нужна запись нового пользователя в файл
 
                                     OtherInterf.FXNotification("The account is registered");
 

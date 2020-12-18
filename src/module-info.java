@@ -1,4 +1,4 @@
-module casino {
+/*module casino {
     requires javafx.graphics;
     requires javafx.fxml;
     requires javafx.controls;
@@ -6,4 +6,4 @@ module casino {
     opens BackEnd;
     opens Controllerss;
     opens FileFXML;
-}
+}*/

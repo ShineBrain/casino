@@ -2,6 +2,7 @@ package BackEnd;
 
 public class Bet extends Account {
 
+    //Метод проверки цифр от 0 до 8(для игры slot machines)
     protected static boolean CheckNum(String string){
         try {
             int num = Integer.parseInt(string);
@@ -13,7 +14,8 @@ public class Bet extends Account {
         }
     }
 
-    protected boolean Game(String vote, int bet, double coefficient, int percent){
+    //Метод проведения игры(для slot machines)
+    public boolean Game(String vote, int bet, double coefficient, int percent){
         int voteNum = Integer.parseInt(vote);
 
         int answer = 1 + (int)(Math.random() * 6);

@@ -15,6 +15,7 @@ public class Account {
 
     public static ArrayList<Account> accounts = new ArrayList<>();
 
+    // TODO: Добавить в конструктор, не принимающий аргументов, загрузку всех пользователей из файла
     public Account(){}
 
     public Account(String Login, String Password, String CardNumber, String FullName, String DateExpirationCard, String CVV){
@@ -26,6 +27,7 @@ public class Account {
         this.CVV = CVV;
     }
 
+    //Метод преобразует буквы в верхний регистр
     public String TransformationFullName(String string){
         String str = string.toUpperCase();
         char[] arrayChar = str.toCharArray();
@@ -33,6 +35,7 @@ public class Account {
         return String.valueOf(arrayChar);
     }
 
+    //Метод проверки аккаунта и выдачи идентификатора пользователю
     public Boolean CheckAccount(String str, String str1){
         boolean bool = false;
 
@@ -42,11 +45,13 @@ public class Account {
                 NumberUser = i;
                 break;
             }
-            else bool = false;
+            else
+                bool = false;
         }
         return bool;
     }
 
+    //Метод проверки аккаунта на дубликаты
     public boolean CheckDuplicateAccount(String login, String cardNumber) {
         for (Account account : accounts) {
             if (login.equalsIgnoreCase(account.Login) || cardNumber.equals(account.CardNumber))
@@ -55,13 +60,18 @@ public class Account {
         return true;
     }
 
-    protected boolean CheckBalance(int bet){ return bet == accounts.get(NumberUser).Balance || bet < accounts.get(NumberUser).Balance; }
+    //Метод проверки баланса на достаточность
+    public boolean CheckBalance(int bet){
+        return bet == accounts.get(NumberUser).Balance || bet < accounts.get(NumberUser).Balance;
+    }
 
     protected double MinusBalance(int bet){
         accounts.get(NumberUser).Balance -= bet;
+
         return bet;
     }
 
+    //Метод проверки срока годности карты
     protected boolean CheckDate(String expirationDataReg){
         try {
             char[] array = expirationDataReg.toCharArray();
@@ -91,12 +101,23 @@ public class Account {
         }
     }
 
+    // TODO: Убрать эту функцию после успешной реализации/тестирования работы с файлом из библиотеки
+    //Методы создания игровых аккаунтов
     public void TestCreateAccount(){
-        accounts.add(new Account("Player1", "111", "1111222233334444", "As Sa", "11.01", "123"));
+        accounts.add(new Account("qwe", "123", "1111222233334444", "As Sa", "11.01", "123"));
         accounts.add(new Account("Player2", "222", "2222333344445555", "Ed Di", "22.01", "456"));
         accounts.add(new Account("Player3", "333", "3333444455556666", "Mi Is", "17.03", "789"));
         accounts.add(new Account("Player4", "444", "3333634523556666", "Di Im", "23.03", "321"));
         accounts.add(new Account("Player5", "555", "3333444458786666", "Ig Go", "01.03", "654"));
         accounts.add(new Account("Player6", "666", "3311134465556666", "Ch He", "04.03", "987"));
     }
+
+    // TODO: Убрать эту функцию после успешной реализации/тестирования работы с файлом из библиотеки
+    public void TestCreateAccount5el(){
+        accounts.add(new Account("qwe", "123", "1111222233334444", "As Sa", "11.01", "123"));
+        accounts.add(new Account("Player2", "222", "2222333344445555", "Ed Di", "22.01", "456"));
+        accounts.add(new Account("Player3", "333", "3333444455556666", "Mi Is", "17.03", "789"));
+        accounts.add(new Account("Player5", "555", "3333444458786666", "Ig Go", "01.03", "654"));
+    }
+
 }

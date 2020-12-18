@@ -13,13 +13,13 @@
             <Font size="21.0" />
          </font>
       </Label>
-      <TextField fx:id="LoginRegField" layoutX="209.0" layoutY="96.0" prefHeight="26.0" prefWidth="164.0" promptText="Login" AnchorPane.bottomAnchor="278.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="96.0" />
-      <TextField fx:id="PasswordRegField" layoutX="209.0" layoutY="122.0" prefHeight="26.0" prefWidth="164.0" promptText="Password" AnchorPane.bottomAnchor="252.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="122.0" />
-      <TextField fx:id="CardNumberRegField" layoutX="210.0" layoutY="148.0" prefHeight="26.0" prefWidth="164.0" promptText="Card number" AnchorPane.bottomAnchor="225.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="148.0" />
-      <TextField fx:id="CardHolderRegField" layoutX="209.0" layoutY="175.0" prefHeight="26.0" prefWidth="164.0" promptText="Full name of the card holder" AnchorPane.bottomAnchor="198.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="175.0" />
-      <TextField fx:id="ExpirationDataRegField" layoutX="210.0" layoutY="202.0" prefHeight="26.0" prefWidth="164.0" promptText="Card expiration date" AnchorPane.bottomAnchor="171.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="202.0" />
-      <TextField fx:id="CVVGegField" layoutX="210.0" layoutY="229.0" prefHeight="26.0" prefWidth="164.0" promptText="CVV" AnchorPane.bottomAnchor="144.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="210.0" AnchorPane.topAnchor="229.0" />
-      <Button fx:id="RegButton" layoutX="209.0" layoutY="256.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="Enter" AnchorPane.bottomAnchor="118.0" AnchorPane.leftAnchor="209.0" AnchorPane.rightAnchor="211.0" AnchorPane.topAnchor="256.0" />
-      <Button fx:id="BackGerField" layoutX="259.0" layoutY="366.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Back" AnchorPane.leftAnchor="259.0" AnchorPane.rightAnchor="261.0" />
+      <TextField fx:id="LoginRegField" layoutX="209.0" layoutY="96.0" prefHeight="26.0" prefWidth="180.0" promptText="Login" />
+      <TextField fx:id="PasswordRegField" layoutX="209.0" layoutY="122.0" prefHeight="26.0" prefWidth="180.0" promptText="Password" />
+      <TextField fx:id="CardNumberRegField" layoutX="209.0" layoutY="148.0" prefHeight="26.0" prefWidth="180.0" promptText="Card number" />
+      <TextField fx:id="CardHolderRegField" layoutX="209.0" layoutY="175.0" prefHeight="26.0" prefWidth="180.0" promptText="Full name of the card holder" />
+      <TextField fx:id="ExpirationDataRegField" layoutX="209.0" layoutY="201.0" prefHeight="26.0" prefWidth="180.0" promptText="Card expiration date" />
+      <TextField fx:id="CVVGegField" layoutX="209.0" layoutY="227.0" prefHeight="26.0" prefWidth="180.0" promptText="CVV" />
+      <Button fx:id="RegButton" layoutX="209.0" layoutY="256.0" mnemonicParsing="false" prefHeight="28.0" prefWidth="180.0" text="Enter" />
+      <Button fx:id="BackGerField" layoutX="254.0" layoutY="360.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="90.0" text="Back" />
    </children>
 </AnchorPane>
